@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "strukt"
+version = "0.1.0"
+description = "Rich text data streaming protocol"
+authors = ["Martín Dimondo"]
+license = "Apache-2.0"
+readme = "README.md"
+packages = [{ include = "strukt" }]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.4.1"
+mypy = "^1.17.1"
+black = "^25.1.0"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
