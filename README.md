@@ -28,22 +28,13 @@ For the detailed protocol specification, message formats, event types, and sessi
 
 - Real-time collaborative editors
 - Live document synchronization
-- Chat applications with rich formatting
-- Content management systems
+- Learning platforms
 - Any application requiring rich text streaming
 
 ## Getting Started
 
 ### Installation
 
-```bash
-# Clone the repository
-git clone https://github.com/your-username/strukt.git
-cd strukt
-
-# Install dependencies (if applicable)
-npm install
-```
 
 ### Basic Usage
 
@@ -53,7 +44,7 @@ We welcome contributions! Please see our [Contributing Guidelines](CONTRIBUTING.
 
 ## License
 
-[Add your license information here]
+Apache 2.0
 
 ## Author
 
